@@ -1,6 +1,6 @@
 # Expand Testing
 
-This repository contains end-to-end UI tests built with Playwright.
+This repository contains Playwright end-to-end UI test practice for https://practice.expandtesting.com/.
 
 ## Tech Stack
 
