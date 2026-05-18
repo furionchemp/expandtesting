@@ -5,14 +5,12 @@ export class DropdownPage {
   readonly option: Locator;
   readonly elements: Locator;
   readonly country: Locator;
-  readonly alertMessage: Locator;
 
   constructor(page: Page) {
     this.page = page;
     this.option = page.locator('#dropdown');
     this.elements = page.getByLabel('Elements per Page:');
     this.country = page.locator('#country');
-    this.alertMessage = page.getByRole('alert');
   }
 
   async open() {
